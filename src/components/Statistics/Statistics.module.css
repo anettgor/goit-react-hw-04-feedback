@@ -1,0 +1,22 @@
+p {
+  all: unset;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.stats > p {
+  padding: 10px;
+  border-radius: 10px;
+}
+.negative {
+  color: red;
+  font-weight: 600;
+  background-color: rgb(247, 205, 205);
+}
+.positive {
+  color: green;
+  font-weight: 600;
+  background-color: rgb(187, 220, 187);
+}
